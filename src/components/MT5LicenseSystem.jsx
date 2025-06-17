@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { User, Shield, Plus, Trash2, Check, X, Ban, Eye, Settings, LogOut, Users, Clock } from 'lucide-react';
+import { Shield, Plus, Trash2, Check, X, Ban, Eye, Settings, LogOut, Users, Clock } from 'lucide-react';
+
 
 const MT5LicenseSystem = () => {
   const [currentView, setCurrentView] = useState('login');
